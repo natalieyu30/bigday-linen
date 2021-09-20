@@ -1,1 +1,32 @@
 /*=============== FOOTER ===============*/
+
+.footer {
+  background-color: var(--first-color-lighten);
+  padding: 2rem 0;
+  color: #eee;
+  &__container {
+    text-align: center;
+  }
+
+  &__logo {
+    display: inline-block;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: var(--mb-0-5);
+  }
+
+  &__description {
+    font-size: var(--small-font-size);
+  }
+
+  &__social-link {
+    font-size: 2rem;
+  }
+
+  &__copy {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: var(--small-font-size);
+    color: #ccc;
+  }
+}

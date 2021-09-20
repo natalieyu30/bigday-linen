@@ -1,1 +1,21 @@
 /*=============== ABOUT ===============*/
+.about {
+  &__container {
+    gap: 2rem;
+    align-items: center;
+  }
+
+  &__group {
+    display: grid;
+    margin: 0 auto;
+  }
+
+  &__info {
+    width: 300px;
+    text-align: center;
+  }
+
+  &__subtitle {
+    margin-bottom: var(--mb-0-5);
+  }
+}
